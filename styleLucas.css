@@ -1,0 +1,21 @@
+.bannerImage {
+    width: 100%;
+}
+
+.textNextToSmallImage {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+}
+
+.insideText{
+    margin-left: 20%;
+}
+
+#emotoGif{
+    width: 60%;
+}
