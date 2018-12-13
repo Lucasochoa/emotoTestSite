@@ -15,7 +15,6 @@
 
     <title>Emoto</title> -->
     <!-- DEFAULT META TAGS -->
-
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Spirax" rel="stylesheet">
@@ -40,7 +39,7 @@
     <!-- FAVICON -->
 </head>
 
-<body>
+<body id="bodyTag">
     <!-- HEADER -->
     <header id="header" class="hero-invisible">
         <div class="header-inner clearfix">
@@ -51,7 +50,6 @@
                 <a id="light-logo" class="logotype" href="http://emotoai.com/index.html"><img src="logo-avoc-light.png" srcset="logo-avoc-light.png 1x"
                         alt="Logo"></a>
             </div>
-
             <div id="menu" class="right-float clearfix menu-light">
                 <a href="index.html#" class="open-nav"><span class="hamburger"></span></a>
 
@@ -89,30 +87,103 @@
     <script type="text/javascript" src="jquery.backgroundparallax.min.js"></script>
     <script type="text/javascript" src="jquery.wolf.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="scrollScript.js"></script>
     <!-- SCRIPTS -->
     <div class="textNextToSmallImage">
+        <img src="images/emotoWhiteSplashThumbnail.gif" alt="Section1" id="emotoGif">
         <div class="insideText">
-            <h5>emoto</h5>
+            <h4>emoto</h4>
             <p>speculative fiction AI sidekick</p>
         </div>
-        <img src="images/emotoWhiteSplashThumbnail.gif" alt="Section1" id="emotoGif">
     </div>
-    <div class="wrapper-small align-center">
-        <h4><strong>A robotic system that gives a body and expression to the AI on your phone</strong></h4>
-        <div class="wrapper-small">
-            <div class="inline-video" data-type="vimeo" data-videoid="274786021" data-button="Vimeo Video">
-                <img src="./Emoto_files/videoThumbnail.jpg" alt="SEO NAME">
+    <section id="page-body">
+        <div class="wrapper-small align-center">
+            <h4><strong>A robotic system that gives a body and expression to the AI on your phone</strong></h4>
+            <div class="spacer spacer-big"></div>
+            <div class="wrapper-small">
+                <div class="inline-video active" data-type="vimeo" data-videoid="274786021" data-button="Vimeo Video">
+                    <img src="videoThumbnail.jpg" alt="SEO NAME">
+                    <div class="inline-iframe-container"><iframe src="https://player.vimeo.com/video/274786021?autoplay=1"
+                            width="100%" height="100%" frameborder="0" allowfullscreen=""></iframe>
+                        <!-- <div class="close-inline-video"></div> -->
+                    </div>
+                </div>
             </div>
         </div>
+    </section>
+    <div class="spacer spacer-big"></div>
+    <div class="wrapper">
+        <div class="column-section clearfix">
+            <div class="column one-fifth">
+                <h6 ><strong>Collaborators</strong></h6>
+                <h6><a href="https://gautam-bose.com">Gautam Bose</a><br><a href="http://http://marisa.lu//">Marisa Lu</a><br><a href="http://lucasochoa.com/">Lucas Ochoa</a></h6>
+            </div>
+            <div class="column two-fifth">
+                <h6 ><strong>Project Space</strong></h6>
+                <p>Emoto is a mixed hardware and software concept for a platform of different interactions meant to reframe how people relate to their phones.<br><br></p>
+            </div>
+            <div class="column two-fifth last-col">
+                <h6 ><strong>Looking Forward</strong></h6>
+                <p>We hope to open source the concept of emoto so that for a low cost anyone can build their own inteligent sidekick system</p>
+            </div>
+        </div> <!-- END .column-section -->
     </div>
-    <div>
-        <img src="images/section1.png" alt="Section2">
+
+    <div class="spacer spacer-big"></div>
+    <!-- <video id="section2Image" class="videoFormat" src="videos/arm.mp4" autoplay="" muted="" playsinline="" loop=""></video> -->
+    <div class="sticky">
+        <!-- <div id='maskTest'></div> -->
+        <!-- <img id='section2Image' src="images/arm.gif" alt="Section2"> -->
+        <!-- <div class="videoContainer"> -->
+        
+        <!-- </div> -->
+        <!-- <video id="section2Image" class="videoFormat" src="videos/arm.mp4" autoplay="" muted="" playsinline="" loop=""></video> -->
+        <video id="section2Image" src="videos/arm.mp4" autoplay="" muted="" playsinline="" loop=""></video>
+        <img id="section3Image" src="images/emotoBody.jpg" alt="Section3">
+
+        <div id='section2Text'>
+            <h5>HUMAN & AI ETIQUETTE</h5>
+            <p>"the tone of voice that we use in a growing percentage of our daily interactions matters—not for Alexa, not
+                for Amazon, not for Apple, but for us" - Rachel Withers"</p>
+        </div>
+        <div id='section3Text'>
+            <h5>HOME ASSISTANTS</h5>
+            <p>“it’s as if missing housewives are being replaced with more servile smart-home wives, reinforcing cultural
+                connections between ‘women’ + ‘subservience’ to boot.”</p>
+        </div>
+
     </div>
-    <div>
-        <img src="images/emotoBody.jpg" alt="Section3">
+    <div class="spacer spacer-big"></div>
+    <div class="spacer spacer-big"></div>
+    <div class="spacer spacer-big"></div>
+    <div class="spacer spacer-big"></div>
+    <div class="spacer spacer-big"></div>
+
+
+    <div id='futureProjects'>
+        <div class="detailStack">
+            <img src="images/cirq.png" alt="phoneStand">
+            <p class='detailText'>conservative interaction model</p>
+        </div>
+        <div class="detailStack">
+            <img src="images/iphoneOnCirq.jpg" alt="phoneStand">
+            <p class='detailText'>conservative interaction model</p>
+        </div>
+        <div class="detailStack">
+            <img src="images/clip.png" alt="phoneStand">
+            <p class='detailText'>conservative interaction model</p>
+        </div>        
     </div>
-    <div>
-        <img src="images/head.jpg" alt="Section4">
+
+    <div class="spacer spacer-big"></div>
+
+    <div class="sticky">
+        <img src="images/head.jpg" id="section4Image" alt="Section4">
+        <div id='section4Text'>
+            <h5>PLACEMAKING</h5>
+            <p>“Let’s work towards escaping this world of screen-zombies” — Golden Krishna, author of 'No Interface is the
+                Best Interface' and design lead for Google's android visioning</p>
+        </div>
     </div>
 
 

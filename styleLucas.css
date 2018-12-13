@@ -1,9 +1,32 @@
+/* @media only screen and (min-width: 768px) { */
+
+/* For desktop: */
+
+.videoFormat {
+    /* position: fixed; */
+    /* top: 50%;
+    left: 50%; */
+    /* min-width: 100%; */
+    /* min-height: 100%;
+    width: auto;
+    height: auto; */
+    /* z-index: 400; */
+    /* z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    /* background: url(polina.jpg) no-repeat;
+    background-size: cover;  */ */
+}
+
+
 .bannerImage {
     width: 100%;
 }
 
 .textNextToSmallImage {
-    margin-top: 10%;
+    margin-top: 5%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -12,10 +35,114 @@
     align-content: stretch;
 }
 
-.insideText{
-    margin-left: 20%;
+.insideText {
+    margin-right: 25%;
 }
 
-#emotoGif{
-    width: 60%;
+#emotoGif {
+    width: 50%;
+    margin-left: 5%;
 }
+
+/* #testPos{
+    position: absolute;
+} */
+
+#maskTest {
+    width: 100%;
+    height: 100px;
+    background: rgba(208, 12, 12, 0.81);
+    z-index: 2;
+    position: relative;
+}
+
+#section2Image {
+    margin-top:-125px;
+    height: 100%;
+    position: absolute;
+    /* position: absolute;
+    height: 100%;
+    width:auto;
+    overflow: hidden; */
+}
+.videoContainer video
+{
+  min-width: auto;
+  min-height: 100%;
+}
+
+#section2Text {
+    position: absolute;
+    z-index: 3;
+    /* left: 10%; */
+    top: 30%;
+    margin-right: 70%;
+    margin-left: 10%;
+}
+
+#section4Image {
+    width: 60%;
+    /* height: 100%; */
+}
+
+#section3Text {
+    position: absolute;
+    z-index: 3;
+    /* left: 10%; */
+    top: 30%;
+    margin-right: 10%;
+    margin-left: 70%;
+}
+
+#section4Text {
+    position: absolute;
+    z-index: 3;
+    /* left: 10%; */
+    top: 15%;
+    margin-right: 10%;
+    margin-left: 70%;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+#futureProjects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.detailText {
+    display: flex;
+    padding-top: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.detailStack {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+    width: 500px;
+}
+
+#setSize {
+    width: 50%;
+}
+
+/* } */
